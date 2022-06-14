@@ -1,0 +1,366 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+:root {
+    --main-color: #3FB6E0;
+    --color: #ffffff;
+    --black: #292B2B;
+    --light-black: #323637;
+    --Font-black: #5a5a5a;
+    --grey: #999999;
+}
+
+.logoo {
+    background: var(--main-color);
+}
+/* 
+.sliderhead h1{
+    margin-bottom: 18.5%;
+    margin-left: -75%;
+} */
+
+
+.main {
+    background-color: var(--main-color);
+    color: var(--color);
+}
+
+.main i {
+    color: var(--color);
+}
+
+.social-icon {
+    font-size: larger;
+    text-align: end;
+    color: var(--color);
+}
+
+.social-icon i {
+    padding-left: 5%;
+}
+
+.navbar {
+    background: var(--color);
+}
+
+.navbar {
+    background: var(--color);
+}
+
+.nav-item a {
+    padding: 10px;
+}
+
+.nav-item a:hover {
+    background-color: var(--main-color);
+    color: var(--color) !important;
+}
+
+.carousel-caption {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-collapse li a {
+    color: black !important;
+    font-size: larger;
+}
+
+.btn-primary {
+    background-color: var(--main-color) !important;
+    border: var(--main-color) !important;
+}
+
+.servic {
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.line1 {
+    width: 200px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 1%;
+}
+
+.line2 {
+    width: 250px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 1%;
+}
+
+.line3 {
+    width: 140px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0.5%;
+}
+
+.servic p {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.img img {
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.img img {
+    margin-bottom: 7%;
+}
+
+.deleniti {
+    padding-bottom: 5%;
+}
+
+.dentist {
+    text-align: center;
+    justify-content: center;
+}
+
+.clock {
+    padding: 3% 5%;
+    border: 5px solid var(--grey);
+}
+
+.maindentist .col-md-4:hover img {
+    background-color: var(--grey);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.maindentist .col-md-4 h3 {
+    color: var(--Font-black);
+}
+
+.deleniti1 {
+    justify-content: center;
+}
+
+.DOCTORS {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+.DOCTORS p {
+    text-align: center;
+}
+
+.staff {
+    text-align: justify;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.nurse button {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.staff:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.smile{
+    margin-bottom: 5%;
+}
+
+.staff h2 {
+    padding-top: 5%;
+}
+
+.staff p {
+    font-size: larger;
+}
+
+.staficon i {
+    font-size: xx-large;
+    padding: 2%;
+    padding-top: 5%;
+    color: var(--main-color);
+}
+
+
+.nursse p {
+    margin-bottom: 4%;
+}
+
+.nursse ul li {
+    list-style: none;
+}
+
+.nursse ul li i {
+    color: var(--main-color);
+}
+
+.nurse {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form {
+    padding-top: 2%;
+}
+
+.form input {
+    margin-bottom: 1.5%;
+}
+
+.form button {
+    margin-top: 1.5%;
+}
+
+.patient {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.mainpatient h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.patient img {
+    float: left;
+    padding-right: 2%;
+}
+
+.patient .text {
+    text-align: justify;
+    padding-top: 2%;
+}
+
+.text-uppercase {
+    color: var(--main-color);
+}
+
+.formi {
+    padding-bottom: 5%;
+}
+
+.Appointment {
+    background-color: var(--main-color);
+    padding: 2%;
+}
+
+.Appointment .ques {
+    justify-content: center;
+    text-align: center;
+}
+
+.ques {
+    color: var(--color);
+}
+
+.btnapp {
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+.btnapp button {
+    padding: 1.5% 3%;
+    font-weight: bold;
+}
+
+.mainfoot h3 {
+    color: rgb(200, 200, 200);
+    text-align: left;
+}
+
+.mainfoot i:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.mainfoot small:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.logoicon {
+    /* margin-top: auto; */
+    padding: 1% 2%;
+}
+
+.footicoon button {
+    margin-top: 2%;
+}
+
+.footicoon a {
+    font-size: xx-large;
+    padding-right: 8%;
+    color: var(--grey);
+    /* border-radius: 50%; */
+}
+
+.footicoon a:hover {
+    color: var(--main-color);
+}
+
+.terms {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1%;
+    color: var(--grey);
+}
+
+.footbtnn {
+    background-color: var(--Font-black) !important;
+    color: var(--grey) !important;
+}
+
+.footbtnn:hover {
+    background-color: var(--main-color) !important;
+    color: var(--color) !important;
+}
+
+.foots {
+    padding-top: 2.5%;
+}
+
+.footsline i {
+    line-height: 35px;
+}
+
+footer {
+    background-color: var(--black);
+}
+
+.footdat .col-md-3 {
+    color: var(--grey);
+}
